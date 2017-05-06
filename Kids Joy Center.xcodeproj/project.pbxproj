@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573155FB1E850443007939AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573155FA1E850443007939AE /* AppDelegate.swift */; };
+		573155FD1E850443007939AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573155FC1E850443007939AE /* ViewController.swift */; };
+		573156001E850443007939AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573155FE1E850443007939AE /* Main.storyboard */; };
+		573156021E850443007939AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573156011E850443007939AE /* Assets.xcassets */; };
+		573156051E850443007939AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573156031E850443007939AE /* LaunchScreen.storyboard */; };
+		5731560D1E85BC09007939AE /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731560C1E85BC09007939AE /* MemoryGame.swift */; };
+		5731560F1E85C838007939AE /* BalloonGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731560E1E85C838007939AE /* BalloonGame.swift */; };
+		573156111E85C845007939AE /* SortingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573156101E85C845007939AE /* SortingGame.swift */; };
+		573156131E865C54007939AE /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 573156121E865C54007939AE /* cheer.mp3 */; };
+		573A12D31E88C91A007E245A /* ModalTransitionMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A12D21E88C91A007E245A /* ModalTransitionMediator.swift */; };
+		57825F591E889CDA00F863F1 /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57825F581E889CDA00F863F1 /* Highscore.swift */; };
+		578F84D11E8A05B300A4A11C /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578F84D01E8A05B300A4A11C /* pop.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		573155F71E850443007939AE /* Kids Joy Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Joy Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		573155FA1E850443007939AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		573155FC1E850443007939AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		573155FF1E850443007939AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573156011E850443007939AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573156041E850443007939AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573156061E850443007939AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5731560C1E85BC09007939AE /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		5731560E1E85C838007939AE /* BalloonGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonGame.swift; sourceTree = "<group>"; };
+		573156101E85C845007939AE /* SortingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingGame.swift; sourceTree = "<group>"; };
+		573156121E865C54007939AE /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
+		573A12D21E88C91A007E245A /* ModalTransitionMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransitionMediator.swift; sourceTree = "<group>"; };
+		57825F581E889CDA00F863F1 /* Highscore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscore.swift; sourceTree = "<group>"; };
+		578F84D01E8A05B300A4A11C /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pop.mp3; path = "Kids Joy Center/pop.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573155F41E850443007939AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573155EE1E850443007939AE = {
+			isa = PBXGroup;
+			children = (
+				573156121E865C54007939AE /* cheer.mp3 */,
+				578F84D01E8A05B300A4A11C /* pop.mp3 */,
+				573155F91E850443007939AE /* Kids Joy Center */,
+				573155F81E850443007939AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573155F81E850443007939AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573155F71E850443007939AE /* Kids Joy Center.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573155F91E850443007939AE /* Kids Joy Center */ = {
+			isa = PBXGroup;
+			children = (
+				573155FA1E850443007939AE /* AppDelegate.swift */,
+				573155FC1E850443007939AE /* ViewController.swift */,
+				573A12D21E88C91A007E245A /* ModalTransitionMediator.swift */,
+				5731560C1E85BC09007939AE /* MemoryGame.swift */,
+				573155FE1E850443007939AE /* Main.storyboard */,
+				57825F581E889CDA00F863F1 /* Highscore.swift */,
+				5731560E1E85C838007939AE /* BalloonGame.swift */,
+				573156101E85C845007939AE /* SortingGame.swift */,
+				573156011E850443007939AE /* Assets.xcassets */,
+				573156031E850443007939AE /* LaunchScreen.storyboard */,
+				573156061E850443007939AE /* Info.plist */,
+			);
+			path = "Kids Joy Center";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573155F61E850443007939AE /* Kids Joy Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573156091E850443007939AE /* Build configuration list for PBXNativeTarget "Kids Joy Center" */;
+			buildPhases = (
+				573155F31E850443007939AE /* Sources */,
+				573155F41E850443007939AE /* Frameworks */,
+				573155F51E850443007939AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kids Joy Center";
+			productName = "Kids Joy Center";
+			productReference = 573155F71E850443007939AE /* Kids Joy Center.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573155EF1E850443007939AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matt Argao";
+				TargetAttributes = {
+					573155F61E850443007939AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8B4QBLLSCD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 573155F21E850443007939AE /* Build configuration list for PBXProject "Kids Joy Center" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573155EE1E850443007939AE;
+			productRefGroup = 573155F81E850443007939AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573155F61E850443007939AE /* Kids Joy Center */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573155F51E850443007939AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573156131E865C54007939AE /* cheer.mp3 in Resources */,
+				573156051E850443007939AE /* LaunchScreen.storyboard in Resources */,
+				573156021E850443007939AE /* Assets.xcassets in Resources */,
+				573156001E850443007939AE /* Main.storyboard in Resources */,
+				578F84D11E8A05B300A4A11C /* pop.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573155F31E850443007939AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5731560D1E85BC09007939AE /* MemoryGame.swift in Sources */,
+				573156111E85C845007939AE /* SortingGame.swift in Sources */,
+				573A12D31E88C91A007E245A /* ModalTransitionMediator.swift in Sources */,
+				57825F591E889CDA00F863F1 /* Highscore.swift in Sources */,
+				5731560F1E85C838007939AE /* BalloonGame.swift in Sources */,
+				573155FD1E850443007939AE /* ViewController.swift in Sources */,
+				573155FB1E850443007939AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573155FE1E850443007939AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573155FF1E850443007939AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573156031E850443007939AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573156041E850443007939AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573156071E850443007939AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573156081E850443007939AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5731560A1E850443007939AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4QBLLSCD;
+				INFOPLIST_FILE = "Kids Joy Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Kids-Joy-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5731560B1E850443007939AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4QBLLSCD;
+				INFOPLIST_FILE = "Kids Joy Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.Kids-Joy-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573155F21E850443007939AE /* Build configuration list for PBXProject "Kids Joy Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573156071E850443007939AE /* Debug */,
+				573156081E850443007939AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573156091E850443007939AE /* Build configuration list for PBXNativeTarget "Kids Joy Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5731560A1E850443007939AE /* Debug */,
+				5731560B1E850443007939AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573155EF1E850443007939AE /* Project object */;
+}
